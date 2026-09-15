@@ -1,6 +1,5 @@
 package demo.GithubActions;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class home {
     @RequestMapping("/")
     public String homepage(){
-        return "Hello and Welcome to the test server";
+        return "Hello and Welcome to the test server , changes";
     }
 }
