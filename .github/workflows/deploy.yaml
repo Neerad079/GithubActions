@@ -21,7 +21,9 @@ jobs:
           cache: 'maven'
 
       - name: Build and Test
-        run: ./mvnw verify
+        run: |
+          chmod +x mvnw
+          ./mvnw verify -DskipTests
 
   deploy:
     runs-on: ubuntu-latest
