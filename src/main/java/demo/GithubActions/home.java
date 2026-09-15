@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class home {
     @RequestMapping("/")
     public String homepage(){
-        return "Hello and Welcome to the test server , changes";
+        return "Hello and Welcome to the test server , v2 after automating github actions";
     }
 }
